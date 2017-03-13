@@ -1,0 +1,140 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px; }
+
+* {
+  box-sizing: border-box;
+  font-family: 'Ubuntu Condensed', sans-serif; }
+
+#title {
+  font-size: 100px;
+  padding-left: 40px;
+  padding-top: 40px; }
+
+#bgimage {
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: cover;
+  background-position: 0px -350px;
+  background-image: url("../images/mountain.jpg");
+  box-shadow: 0px 0px 15px #000032;
+  zoom: -20%; }
+
+#logo {
+  width: 100%;
+  margin-top: 10px; }
+
+#slogan {
+  font-size: 40px;
+  margin-top: 80px;
+  text-align: right;
+  text-shadow: 0px 0px 2px grey; }
+
+.line {
+  width: 90%;
+  height: 4px;
+  background-color: black;
+  color: black;
+  font-size: 15px;
+  margin-top: 34px; }
+
+.design .designimg {
+  margin: 0px auto;
+  display: block;
+  background-image: url("../images/meback.jpg");
+  height: 600px;
+  width: 900px;
+  background-position: center center;
+  position: relative; }
+
+.design .designimg:hover #designtitle {
+  color: black;
+  opacity: 100; }
+
+.design .designimg:hover #white {
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+.design #designtitle {
+  font-size: 80px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  text-shadow: 0px 0px 10px black; }
+
+.about .aboutimg {
+  margin: 0px auto;
+  display: block;
+  background-image: url("../images/about.jpg");
+  height: 600px;
+  width: 900px;
+  background-position: center center;
+  position: relative;
+  padding-left: 100px; }
+
+.about .aboutimg:hover #abouttitle {
+  color: black;
+  opacity: 100; }
+
+.about .aboutimg:hover #white {
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+.about #abouttitle {
+  font-size: 80px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  text-shadow: 0px 0px 10px black; }
+
+.contact .contactimg {
+  margin: 0px auto;
+  display: block;
+  background-image: url("../images/contact.jpg");
+  height: 600px;
+  width: 800px;
+  background-position: center center;
+  position: relative;
+  background-size: cover; }
+
+.contact .contactimg:hover #contacttitle {
+  color: black;
+  opacity: 100; }
+
+.contact .contactimg:hover #white {
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+.contact #contacttitle {
+  font-size: 80px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  text-shadow: 0px 0px 10px black; }
+
+@media screen and (max-width: 990px) {
+  #logo {
+    display: block;
+    width: 20%; } }
+
+@media screen and (max-width: 320px) {
+  #logo {
+    display: block;
+    width: 20%; } }
